@@ -139,17 +139,17 @@
       setInterval(() => {
         let topBackground = document.querySelector("section.background-img");
         if (
+          topBackground.style.backgroundImage == 'url("../Lines/背景照.jpg")'
+        ) {
+          topBackground.style.backgroundImage =
+            'url("../Lines/新竹關渡橋.jpg")';
+        } else if (
           topBackground.style.backgroundImage ==
           'url("../Lines/新竹關渡橋.jpg")'
         ) {
-          topBackground.style.backgroundImage = 'url("../Lines/背景照.jpg")';
-        } else if (
-          topBackground.style.backgroundImage == 'url("../Lines/背景照.jpg")'
-        ) {
           topBackground.style.backgroundImage = 'url("../Lines/自行車23.jpg")';
         } else {
-          topBackground.style.backgroundImage =
-            'url("../Lines/新竹關渡橋.jpg")';
+          topBackground.style.backgroundImage = 'url("../Lines/背景照.jpg")';
         }
       }, 3500);
     </script>
