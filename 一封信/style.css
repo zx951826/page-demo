@@ -39,8 +39,10 @@ img {
 }
 
 .item h4 {
+  font-family: 標楷體;
   font-size: 3vw;
   text-align: center;
+  letter-spacing: 0.3vw;
 }
 
 .audio {
